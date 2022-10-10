@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stop Watch</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.6/dist/css/uikit.min.css" />
+
+</head>
+<body>
+
+<section>
+	<div class="uk-container uk-width-1-2">
+		<div class="uk-card uk-card-default uk-card-body uk-text-center uk-margin-large-top	">
+    		<h2 class="uk-card-title uk-text-danger uk-text-bolder">STOP WATCH</h2>
+    		
+    		<div class="uk-margin-medium-bottom">
+    			<span id="sm_time"  class="uk-text-bolder uk-text-large">00</span>
+    			<span class="uk-text-bolder uk-text-large">:</span>
+    			<span class="uk-text-bold uk-text-small"><span id="sec_time"  class="uk-text-bold uk-text-large">00</span> Sec</span>
+    		</div>
+    		
+
+    		<button  id="start_time" class="uk-button uk-button-primary "><span uk-icon="clock"></span> START TIMER</button>
+    		<button  id="stop_time" class="uk-button uk-button-secondary"><span uk-icon="history"></span> STOP TIMER</button>
+   			<button  id="reset_time" class="uk-button uk-button-danger"><span uk-icon="close"></span> RESET TIMER</button>
+		</div>
+	</div>
+</section>
+
+<script src="script.js" type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.15.6/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.15.6/dist/js/uikit-icons.min.js"></script>
+</body>
+</html>
